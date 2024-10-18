@@ -4,20 +4,14 @@ import numpy as np
 
 def load_data(filename):
     """
-    Load data from a csv file
-
+    Function to load
     Parameters
     ----------
-    filename : string
-        Filename to be loaded.
+    filename
 
     Returns
     -------
-    X : ndarray
-        the data matrix.
 
-    y : ndarray
-        the labels of each sample.
     """
     data = read_csv(filename)
     z = np.array(data)
