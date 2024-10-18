@@ -39,3 +39,4 @@ class NMC(object):
 
     def predict(self, xts):
         pass
+
