@@ -53,3 +53,5 @@ class NMC:
         scores = self.decision_function(xts) #predico
         ypred = np.argmax(scores,axis=1)     #prendo il più vicino
         return ypred
+
+#kjnknkk
