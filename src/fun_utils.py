@@ -3,6 +3,16 @@ import numpy as np
 
 
 def load_data(filename):
+    """
+    Function to load
+    Parameters
+    ----------
+    filename
+
+    Returns
+    -------
+
+    """
     data = read_csv(filename)
     z = np.array(data)
     y = z[:, 0]
