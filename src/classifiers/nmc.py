@@ -11,7 +11,7 @@ def softmax(x): #svolgo la funzione su x
 
 class NMC:
     def __init__(self):
-        self._centroids = None #definisc i centroids
+        self._centroids = None #definisc i centrod
 
     @property
     def centroids(self):
